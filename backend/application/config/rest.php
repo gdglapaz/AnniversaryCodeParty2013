@@ -35,7 +35,7 @@ $config['enable_emulate_request'] = TRUE;
 |	E.g: My Secret REST API
 |
 */
-$config['rest_realm'] = 'ProcessMapper 2.0 REST API';
+$config['rest_realm'] = 'GDGBO REST API';
 
 /*
 |--------------------------------------------------------------------------
