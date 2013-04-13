@@ -1,26 +1,32 @@
 <?php
 require APPPATH.'/libraries/rest/REST_Controller.php';
+require APPPATH.'/libraries/gdgbo/gdgbo.php';
 
 class Api extends REST_Controller
 {
+    private $gdgbo;
+
     public function __construct(){
         parent::__construct();
         header("Access-Control-Allow-Origin: *");
+        $this->gdgbo = new GDGBo();
     }
 
     /**
      * USER Methods
      */
     function user_get($par = ''){
-        echo "LISTAR";
+        $this->gdgbo->listar_usuario($par);
     }
 
     function user_post(){
-        echo "GRABAR";
+        $this->gdgbo->salvar_usuario($this->_post_args);
     }
 
     function user_put($par = ''){
-        echo "EDITAR";
+        $params = $this->_post_args;
+        $params->id = $par;
+        $this->gdgbo->salvar_usuario($params);
     }
 
     function user_options(){
