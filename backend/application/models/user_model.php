@@ -8,11 +8,32 @@ class User_model extends CI_Model
     }
 
     function listarUsuario($user_id) {
-    	$response = new stdClass();
-    	$response->success = true;
-    	$response->user = $this->userFake();
-    	$response->message = "OK";
-    	return $response;
+		   $sql = "SELECT * 
+            FROM USERS U
+            LEFT JOIN PERSONAL_INFO P ON (U.USER_ID = P.USER_ID)
+            WHERE
+            EMAIL = '".$user_id."'
+            OR U.USER_ID = '".$user_id."'
+            ";    
+
+        $query = $this->db->query($sql);    
+		    $res = $query->result();   
+        
+
+        $response = new stdClass();
+        $response->success = true;
+        $response->user = new stdClass();
+        $response->user = $res; 
+        $response->message = "OK";
+        return $response;
+        /*
+    				$response = new stdClass();
+    				$response->success = true;
+    				$response->user = $this->userFake();
+    				$response->message = "OK";
+    				return $response;
+      */
+        
     }
 
     function salvarUsuario($params) {
