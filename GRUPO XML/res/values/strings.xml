@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Acerca de mi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Acerca de mi</string>
+    <string name="Actividad2">Perfil</string>
+    <string name="nombreboton">Iniciar Sesion</string>
+    <string name="textousuario">Introduzca su direccion de correo</string>
+    <string name="textocontrasena">Introduzca su contraseña</string>
+    <string name="textotitulo">Editar Datos</string>
+    <string name="labelnombre">Nombre:</string>
+    <string name="labelcountry">Country(Pais):</string>
+    <string name="labeldepto">Depto:</string>
+    <string name="labelinustry">Industry:</string>
+    <string name="labelcontrasena">Contraseña:</string>
+    <string name="botonguardar">Guardar</string>
+    <string name="botoncancelar">Cancelar</string>
+	<string name="accionesperfiltitulo">Bienvenido</string>
+	<string name="textobotonperfil">Mostrar Perfil</string>
+	<string name="textobotoneditarcampos">Editar campos</string>
+</resources>
