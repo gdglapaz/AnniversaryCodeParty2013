@@ -25,7 +25,7 @@ class Api extends REST_Controller
 
     function user_put($par = ''){
         $params = $this->_post_args;
-        $params->id = $par;
+        $params['id'] = $par;
         $this->gdgbo->salvar_usuario($params);
     }
 
