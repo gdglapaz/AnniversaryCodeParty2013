@@ -1,0 +1,57 @@
+{
+  "username":"alejandra.rojas@gmail.com", 	// (string) - The email account logged in to the application.
+  "first_name":"Alejandra",   		// (string) - The GDG member's first name.
+  "last_name":"Rojas",             	// (string) - The GDG member's last name.
+  "gender":"female",			// (string) - The gender of GDG member.
+  "country":{				// (object) - The country where the GDG member lives.
+    "code":"BOL",			// (string) - The ISO_3166-1 Alpha-3 code the country
+    "pais":"Bolivia"			// (string) - The short name of the country in Spanish
+  },
+  "depto":{				// (object) - The departamento where the GDG member lives.
+    "code":"LP",			// (string) - The code for the departament according to Tribunal Nacional Electoral
+    "departamento":"La Paz"		// (string) - The short name of the departament in Spanish
+  },
+  "contact_email":"alejandra.rojas@gmail.com",	// (string) - The email to display as the contact info
+  "mobile_number":"72254089",		// (string) - The phone number of GDG member
+  "badges":[				// (object[])- The membership types declared by GDG member. May be empty
+    {
+      "type":"1",			// (integer) - The code for the membership type.
+      "gdg_membership":"developer",	// (string) - The short description of the membership
+    }
+  ],
+  "birth_date": "1985-01-20T00:00:00.000Z",	// (ISO Date) - The birth date of the GDG member.
+  "city":"La Paz",			// (string, nullable) - The city where the GDG member lives.
+  "industry":{				// (object) - The industry where the GDG member works.
+    "code":"4",				// (string) - The code for the industry, according to LinkedIn Industry Codes
+    "description":"Software"		// (string) - The short name of the industry in Spanish
+  },
+  "affiliation":"Colosa",		// (string, nullable) - The affiliation declared by GDG member, if declared.
+  "bio":"Soy una persona apasionada por los dispositivos móviles y la programación móvil",	// (string, nullable) - The short bio entered by GDG member.
+  "identities":[              		// (object[])- The social identities registered by GDG member.  May be empty.
+    {
+      "network":"twitter",		// (string) - The id of the social network declared by GDG member.
+      "preference":1,			// (integer) - The order of preference for the network, fixed for this version.
+      "profile":"alerojas"		// (string) - The account/profile name in the social network.
+    },
+    {
+      "network":"facebook",		// (string) - The id of the social network declared by GDG member.
+      "preference":2,			// (integer) - The order of preference for the network, fixed for this version.
+      "profile":"alejandrarojas"	// (string) - The account/profile name in the social network.
+    },
+    {
+      "network":"google+",		// (string) - The id of the social network declared by GDG member.
+      "preference":3,			// (integer) - The order of preference for the network, fixed for this version.
+      "profile":"alerojas"		// (string) - The account/profile name in the social network.
+    },
+    {
+      "network":"linkedin",		// (string) - The id of the social network declared by GDG member.
+      "preference":4,			// (integer) - The order of preference for the network, fixed for this version.
+      "profile":"alejandra_rojas"	// (string) - The account/profile name in the social network.
+    },
+    {
+      "network":"skype",		// (string) - The id of the social network declared by GDG member.
+      "preference":5,			// (integer) - The order of preference for the network, fixed for this version.
+      "profile":"arojas"		// (string) - The account/profile name in the social network.
+    }
+  ]
+}

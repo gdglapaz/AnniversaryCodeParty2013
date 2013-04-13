@@ -1,0 +1,57 @@
+{
+  "username":"alejandra.rojas@gmail.com",
+  "first_name":"Alejandra",
+  "last_name":"Rojas",
+  "gender":"female",
+  "country":{
+    "code":"BOL",
+    "pais":"Bolivia"
+  },
+  "depto":{
+    "code":"LP",
+    "departamento":"La Paz"
+  },
+  "contact_email":"alejandra.rojas@gmail.com",
+  "mobile_number":"72254089",
+  "badges":[
+    {
+      "type":"1",
+      "gdg_membership":"developer"
+    }
+  ],
+  "birth_date": "1985-01-20T00:00:00.000Z",
+  "city":"La Paz",
+  "industry":{
+    "code":"4",
+    "description":"Software"
+  },
+  "affiliation":"Colosa",
+  "bio":"Soy una persona apasionada por los dispositivos móviles y la programación móvil",
+  "identities":[
+    {
+      "network":"twitter",
+      "preference":1,
+      "profile":"alerojas"
+    },
+    {
+      "network":"facebook",
+      "preference":2,
+      "profile":"alejandrarojas"
+    },
+    {
+      "network":"google+",
+      "preference":3,
+      "profile":"alerojas"
+    },
+    {
+      "network":"linkedin",
+      "preference":4,
+      "profile":"alejandra_rojas"
+    },
+    {
+      "network":"skype",
+      "preference":5,
+      "profile":"arojas"
+    }
+  ]
+}

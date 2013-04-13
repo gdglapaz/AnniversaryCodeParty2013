@@ -1,0 +1,98 @@
+{
+  "username":"alejandra.rojas@gmail.com",
+  "have_kids":false,
+  "worklife_balance":[
+    {
+      "code":"cod1",
+      "description":"Respuesta ya parametrizada"
+    },
+    {
+      "code":"other",
+      "description":"Nueva respuesta no parametrizada"
+    }
+  ],
+  "pursue_career":[
+    {
+      "code":"cod1",
+      "description":"Respuesta ya parametrizada"
+    },
+    {
+      "code":"other",
+      "description":"Nueva respuesta no parametrizada"
+    }
+  ],
+  "greatest_challenge":[
+    {
+      "code":"cod1",
+      "description":"Respuesta ya parametrizada"
+    },
+    {
+      "code":"other",
+      "description":"Nueva respuesta no parametrizada"
+    }
+  ],
+  "stay_current":[
+    {
+      "code":"cod1",
+      "description":"Respuesta ya parametrizada"
+    },
+    {
+      "code":"other",
+      "description":"Nueva respuesta no parametrizada"
+    }
+  ],
+  "barriers_wit":[
+    {
+      "code":"cod1",
+      "description":"Respuesta ya parametrizada"
+    },
+    {
+      "code":"other",
+      "description":"Nueva respuesta no parametrizada"
+    }
+  ],
+  "bolivia_limits":[
+    {
+      "code":"cod1",
+      "description":"Respuesta ya parametrizada"
+    },
+    {
+      "code":"other",
+      "description":"Nueva respuesta no parametrizada"
+    }
+  ],
+  "training_interest":[
+    {
+      "code":"dev",
+      "description":"Programación"
+    },
+    {
+      "code":"grow",
+      "description":"Desarrollo Personal"
+    }
+  ],
+  "training_days":[
+    {
+      "day":"mon",
+      "nameday":"Lunes"
+    },
+    {
+      "day":"sat",
+      "nameday":"Sábado"
+    }
+  ],
+  "training_time":[
+    {
+      "code":"am",
+      "description":"Por las mañanas"
+    },
+    {
+      "code":"pm",
+      "description":"Por las tardes"
+    }
+  ],
+  "training_frequency":{
+    "code":"una",
+    "description":"Una vez a la semana"
+   }
+}

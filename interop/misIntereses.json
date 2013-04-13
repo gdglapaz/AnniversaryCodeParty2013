@@ -1,0 +1,33 @@
+{
+  "username":"alejandra.rojas@gmail.com",
+  "desired_tech":[
+    {
+      "code":"cloud",
+      "name":"cloud computing"
+    },
+    {
+      "code":"other",
+      "name":"cloud computing"
+    }
+  ],
+  "desired_gtech":[
+    {
+      "code":"gcm",
+      "description":"Google Cloud Messaging"
+    },
+    {
+      "code":"other",
+      "description":"New Google Tech"
+    }
+  ],
+  "desired_careers":[
+    {
+      "code":"pm",
+      "description":"Project Manager"
+    },
+    {
+      "code":"manage",
+      "description":"Gerencia"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "username":"alejandra.rojas@gmail.com",
+  "years_experience":5,
+  "occupations":[
+    {
+      "code":"emp",
+      "description":"Empleado en startup"
+    },
+    {
+      "code":"free",
+      "description":"Profesional independiente"
+    }
+  ],
+  "academic_level":[
+    {
+      "code":"lic",
+      "description":"Licenciatura"
+    }
+  ],
+  "website_url":"alejandrarojas.com",
+  "current_careers":[
+    {
+      "code":"dev",
+      "description":"Desarrollador"
+    },
+    {
+      "code":"dsgn",
+      "description":"Diseñador"
+    }
+  ],
+  "languages":[
+    {
+      "code":"spa",
+      "description":"Español"
+    },
+    {
+      "code":"eng",
+      "description":"Inglés"
+    }
+  ],
+  "skills":[
+    {
+      "code":"php",
+      "name":"PHP"
+    },
+    {
+      "code":"ror",
+      "name":"Ruby on Rails"
+    }
+  ],
+  "education":[
+    {
+      "school":{
+        "code":"UMSA",
+        "name":"Universidad Mayor de San Andrés"
+      },
+      "field_study":"Ingeniería de Sistemas",
+      "degree":{
+        "code":"lic",
+        "description":"Licenciatura"
+      },
+      "start_date":"2005-01-20T00:00:00.000Z",
+      "end_date":"2010-01-20T00:00:00.000Z"
+    }
+  ],
+  "positions":[
+    {
+      "company":{
+        "code":"Colosa",
+        "name":"Colosa SRL"
+      },
+      "title":"Desarrollador de aplicaciones móviles",
+      "career":{
+        "code":"dev",
+        "description":"Desarrollador"
+      },
+      "start_date":"2011-01-20T00:00:00.000Z",
+      "end_date":null
+    }
+  ]
+}
